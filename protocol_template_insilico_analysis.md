@@ -23,6 +23,40 @@ license: CC0 1.0 Universal
 maturity level: mature
 
 # FAIRe terms
+sop_bioinformatics: 
+trim_method: 
+trim_param: 
+demux_tool: 
+demux_max_mismatch: 
+merge_tool: 
+merge_min_overlap: 
+min_len_cutoff: 
+min_len_tool: 
+error_rate_tool: 
+error_rate_type: 
+error_rate_cutoff: 
+chimera_check_method: 
+chimera_check_param: 
+otu_clust_tool: 
+otu_clust_cutoff: 
+min_reads_cutoff: 
+min_reads_cutoff_unit: 
+min_reads_tool: 
+otu_db: 
+otu_db_custom: 
+tax_assign_cat: 
+otu_seq_comp_appr: 
+tax_class_id_cutoff: 
+tax_class_query_cutoff: 
+tax_class_collapse: 
+tax_class_other: 
+screen_contam_method: 
+screen_geograph_method: 
+screen_nontarget_method: 
+screen_other: 
+otu_raw_description: 
+otu_final_description: 
+bioinfo_method_additional:
 
 ---
 
