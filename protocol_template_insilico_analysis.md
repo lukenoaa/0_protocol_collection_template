@@ -1,109 +1,147 @@
-# Protocol Template
+---
+# MIOP terms
+methodology_category: 
+project: 
+purpose: 
+analyses: 
+geographic_location: 
+broad_scale_environmental_context: 
+local_environmental_context: 
+environmental_medium: 
+target: 
+creator: 
+materials_required: 
+skills_required: 
+time_required: # minutes (integer)
+personnel_required: 1
+language: en
+issued: # YYYY-MM-DD
+audience: scientists
+publisher: # institution
+hasVersion: 1
+license: CC0 1.0 Universal
+maturity level: mature
 
-### Quick Links:
+# FAIRe terms
 
-- [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
-- [Background](#BACKGROUND)
-- [Equipment](#EQUIPMENT)
-- [Guide to Methodology (main protocol)](#GUIDE-TO-ARCHIVED-METHODOLOGY)
+---
 
-## Minimum Information about an Omics Protocol (MIOP)
+# Protocol Template - In-silico Analysis
 
-See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
+## PROTOCOL INFORMATION
 
+### Minimum Information about an Omics Protocol (MIOP)
 
-| MIOP Term  | Value |
-| ------------- | ------------- | 
-| methodology category  |  |
-| project  |  |
-| purpose  |  |
-| analyses  |  |
-| geographic location  |  |
-| broad-scale environmental context  |  |
-| local environmental context  |  |
-| environmental medium  |  |
-| target  |  |
-| creator  |  |
-| materials required  |  |
-| skills required  |  |
-| time required  |  |
-| personnel required  |  |
-| language  |  |
-| issued  |  |
-| audience  |  |
-| publisher  |  |
-| hasVersion  |  |
-| license  |  |
-| maturity level  |  |
+- MIOP terms are listed in the YAML frontmatter of this page.
+- See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
 
-## AUTHORS
+### Making eDNA FAIR (FAIRe)
 
-| PREPARED BY All authors known to have contributed to the preparation of this protocol, including those who filled in the template.  | AFFILIATION | ORCID (visit https://orcid.org/ to register) | DATE |
-| ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell | yyyy-mm-dd |
-| Content Cell  | Content Cell  | Content Cell | yyyy-mm-dd |
+- FAIRe terms are listed in the YAML frontmatter of this page.
+- See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
+- See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
 
-## RELATED PROTOCOLS
+### Authors
 
-This is a list of protocols which should be known to users of this protocol. For example, if you create a derivative or altered protocol, you would link to the original protocol in the section below. Please include the link to each related protocol. Also include the version number of that protocol when you linked to it.
+- All authors known to have contributed to the preparation of this protocol, including those who filled in the template.
+- Visit https://orcid.org/ to register for an ORCID.
+- Date is the date the author first worked on the protocol.
 
-| PROTOCOL NAME | LINK  | VERSION The version of the protocol you linked to | RELEASE DATE This is the date corresponding to the version listed to the left |
-| ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
-| Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
+| PREPARED BY  | AFFILIATION  | ORCID        | DATE       |
+| ------------ | ------------ | ------------ | ---------- |
+| Content Cell | Content Cell | Content Cell | yyyy-mm-dd |
+| Content Cell | Content Cell | Content Cell | yyyy-mm-dd |
 
+### Related Protocols
 
-# BACKGROUND
+- This section contains protocols that should be known to users of this protocol.
+- Include the link to each protocol.
+- Include the version number and release date (if available).
+- Internal/External: "Internal" are derivative or altered protocols, or other protocols in this workflow. "External" are protcols from manufacturers or other groups.
+
+| PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
+| ------------- | ------------ | ------------ | ------------ | ----------------- |
+| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
+| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
+
+### Protocol Revision Record
+
+- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
+- Release date is the date when a given protocol version was finalised.
+- Description of revisions includes a brief description of what was changed relative to the previous version.
+
+| VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
+| ------------- | ------------- | ------------- |
+| 1.0.0 | yyyy-mm-dd | Initial release |
+
+### Acronyms and Abbreviations
+
+| ACRONYM / ABBREVIATION | DEFINITION |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+### Glossary
+
+| SPECIALISED TERM | DEFINITION |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+## BACKGROUND
 
 This document describes the required protocol to conduct insert name of the method/protocol.
 
-## Summary
+### Summary
 
 Insert a short description of the background for the method/protocol (e.g. why and for which purpose do you perform water sampling).
 Please provide a brief summary of your method including, as appropriate, a brief description of what techniques your best practice is about, which ocean environments or regions it targets, the primary sensors covered, what type of data/measurements/observing platform it covers, limits to its applicability.
 
-## Method description and rationale
+### Method Description and Rationale
 
 Insert a short description of the functioning principal of the methodology used in the protocol (i.e. how does the method work?). Please note that this is different from the step-by-step description of the protocol procedure.
 Insert a short statement explaining why the specific methodology used in the protocol has been selected (e.g. it is highly reproducible, highly accurate, procedures are easy to execute etc….).
 
-## Spatial coverage and environment(s) of relevance
+### Spatial Coverage and Environment(s) of Relevance
 
 If applicable, please specify the region where the protocol is applied. For regional term guidance see here. If applicable, please indicate here the environment(s) of relevance for the protocol, e.g. Abyssal plain. Select from the ENVO terminology.
 
-## Personnel Required
+## PERSONNEL REQUIRED
 
 Insert the number of technicians, data managers, and scientists required for the good execution of the procedure
 
-## Safety
+### Safety
 
 Identify hazards associated with the procedure and specify protective equipment and safety training required to safely execute the procedure
 
-## Training requirements
+### Training Requirements
 
 Specify technical training required for the good execution of the procedure.
 
-## Time needed to execute the procedure
+### Time Needed to Execute the Procedure
 
 Specify how much time is necessary to execute the procedure.
 
-# EQUIPMENT, SOFTWARE & PACKAGES
+## EQUIPMENT, SOFTWARE & PACKAGES
 
+- Description: E.g., "laptop".
+- Product Name and Model: Provide the official name of the product.
+- Manufacturer: Provide the name of the manufacturer of the product.
+- Quantity: Provide quantities necessary for one application of the standard operating procedure.
+- Remark: For example, laptops may need a minimmum number of gigabytes of RAM to run the protocol correctly.
 
-| NAME | VERSION OR MODEL | MANUFACTURER OR CREATOR | REMARKS |
-| ------------- | ------------- | ------------- | ------------- |
-| Equipment |
-| e.g. Laptop | Content Cell | Content Cell | e.g. needs at least 16 GB of RAM |
-| Content Cell | Content Cell | Content Cell | Content Cell |
-| Software |
-| Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell |
-| Code |
-| Please include the links to the code you used for this analysis |
-| e.g. link to the released version of a github repository  | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell |
+| NAME | VERSION OR MODEL | MANUFACTURER OR CREATOR | QUANTITY | REMARK |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| **Equipment** |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| **Software** |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| **Code** | Please include the links to the code you used for this analysis |
+| e.g. link to the released version of a github repository  | Content Cell | Content Cell | Content Cell | Content Cell |
 
-# GUIDE TO ARCHIVED METHODOLOGY
+## Guide to Archived Methodology
 
 The contents of this archive should allow your analysis to be reproduced exactly as you intended it.
 
@@ -111,8 +149,7 @@ This document provides guidance on the contents of each partner's compressed arc
 
 Below, please find guidance on what this archive should include. When describing the contents of the archive, please give precise file names and relative paths to the files.
 
-
-# Archive content
+### Archive content
 
 To reproduce the in-silico analysis, please provide one of the following (in order of decreasing preference)
 
@@ -138,38 +175,27 @@ Please provide link(s) to the files containing metadata about your sequence data
 Auxiliary files
 e.g. mapping files, test/dummy files, colour palette
 
-
-## Execution Procedure
+## STANDARD OPERATING PROCEDURE
 
 Please fill out this section if you have not already documented it as part of your R, Jupyter, or similar notebook. In this section, please provide a step-by-step guidance on how and when to run each component of your code.
 
-## Quality control
+1. [Step 1]
+2. [Step 2]
 
-In this section please include the names and paths that can be used to validate that operations were successful. If such checks were done during the execution procedures, please note this here. We recommend identifying such steps with in-line tags (e.g. “#QC”).
+### Quality control
 
-## Basic troubleshooting guide
+Describe and explain criteria used to validate results of the standard operating procedure.
 
-Identify known issues associated with the procedure, if any.
-Provide troubleshooting guidelines when available.
+### Basic Troubleshooting Guide
 
-## ACRONYMS AND ABBREVIATIONS
+- Identify known issues associated with the procedure, if any.
+- Provide troubleshooting guidelines when available.
 
-| ACRONYM / ABBREVIATION | DEFINITION |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
+## REFERENCES
 
-## GLOSSARY
+- Insert all references cited in the document.
+- Please insert full DOI address when available, e.g. http://doi.dx.org/10.1007/s11258-014-0404-1
 
-| SPECIALISED TERM | DEFINITION |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+## APPENDIX A: DATASHEETS
 
-# REFERENCES
-
-Insert all references cited in the document.
-Please insert full DOI address when available, e.g. http://doi.dx.org/10.1007/s11258-014-0404-1
-
-# APPENDIX A: DATASHEETS
-
-Link to any documents such as software guidelines, images, etc that support this protocol. Please include a short note describing the document's relevance.
+Link to any documents (e.g. software guidelines, images, etc) that support this protocol. Please include a short note describing the document's relevance.
